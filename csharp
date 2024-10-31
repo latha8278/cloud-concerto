@@ -1,0 +1,15 @@
+cloud-concerto-app/
+│
+├── client/              # Frontend
+│   ├── public/
+│   └── src/
+│       ├── components/  # React components
+│       ├── App.js       # Main component
+│       └── index.js     # Entry point
+│
+├── server/              # Backend
+│   ├── controllers/     # Event, user controllers
+│   ├── models/          # Mongoose models
+│   ├── routes/          # API routes
+│   └── app.js           # Express server setup
+└── package.json         # Dependencies
